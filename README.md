@@ -1,6 +1,6 @@
 # Google Data Analytics Certification Capstone Project
 
-![Friends](images/data_analysis_process.jpg)
+![Friends](images/friends.jpg)
 
 This project was done as the capstone project for the course.
 
@@ -14,9 +14,9 @@ As was discussed through the course, there are 5 main steps in the Data Analysis
 
 There are 2 questions I try to address through this project. They are
 
-1. Is there a correlation between how an episode "feels", and its rating?
+1. **Is there a correlation between how an episode "feels", and its rating?**
 
-2. Is there an observable correlation between the overall dramaticity of an episode and the subsequent episode's view count?
+2. **Is there an observable correlation between the overall dramaticity of an episode and the subsequent episode's view count?**
 
 To make the problem statement as subjective as possible, the term "feel" is taken as a combination of the polarity and subjectivity of each line of dialogue, for each character. 
 
@@ -53,10 +53,12 @@ from the ratings sheet, and
 
 is extracted from the viewership sheet.
 
-Using `Season, Episode` as a common key across all three sheets, we end up with 2 final tables:
+Using `S-E (Season - Episode)` as a common key across all three sheets, we end up with 2 final tables:
 
-1. dialogues.csv `Season, Episode, Speaker, Dialogue`
-2. metadata.csv `Season, Episode, U.S. viewers, Stars, Votes`
+1. dialogues.csv `S-E, Speaker, Dialogue`
+2. metadata.csv `S-E, Viewers, Stars`
+
+Notebook for data cleaning can be found [here](preprocessing.ipynb)
 
 ---
 
