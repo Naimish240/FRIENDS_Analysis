@@ -64,13 +64,16 @@ Notebook for data cleaning can be found [here](preprocessing.ipynb)
 
 ## Analysing the Data
 
-First, standard EDA is carried out on the two datasets. This can be found [here](EDA.ipynb).
+First, preliminary EDA is carried out on the two datasets. This can be found [here](EDA.ipynb).
 
-Next, 
+Next, sentiment and polarity analysis is carried out on the scripts dataset, to test the hypothesis. This can be found [here](analysis.ipynb).
 
 ---
 
 ## Visualise and Share Findings
+
+Finally, the inferences from the analysis can be found [here](analysis.ipynb)
+
 
 ---
 
