@@ -99,3 +99,11 @@ The answers for the initial questions are:
 
 1. **Yes, there seems to be an overall positive correlation between the "feels" of an episode and its rating.**
 2. **Yes, there seems to be an overall positive correlation between the "dramaticity" of an episode and the subsequent episode's viewership.**
+
+---
+
+## Sources of Error
+
+- Sentiment and polarity were calculated using TextBlob library. VADER or custom NLP models may produce different results.
+- Ignored persons with less than 50 lines of dialogue.
+- Sentiment and polarity might not necessarily be the best of parameters to gauge the "feels" and "dramaticity" of an episode. Other metrics like "emotions" could offer different results.
