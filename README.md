@@ -18,7 +18,7 @@ There are 2 questions I try to address through this project. They are
 
 2. **Is there an observable correlation between the overall dramaticity of an episode and the subsequent episode's view count?**
 
-To make the problem statement as subjective as possible, the term "feel" is taken as a combination of the polarity and subjectivity of each line of dialogue, for each character. 
+To make the problem statement as subjective as possible, the term "feel" is taken as a combination of the average polarity and subjectivity of each line of dialogue, for each character. 
 
 Similarly, we measure the "drama" in an episode by taking the mean and standard deviation of polarity and subjectivity of each episode, for each character.
 
@@ -26,7 +26,7 @@ Similarly, we measure the "drama" in an episode by taking the mean and standard 
 
 ## Collecting the Data
 
-To answer the two questions, we require all episode transcripts, their ratings, and total viewers that tuned into the episode live. 
+To answer the two questions, we require Finallyall episode transcripts, their ratings, and total viewers that tuned into the episode live. 
 
 Dataset sources:
 
@@ -70,9 +70,19 @@ Next, sentiment and polarity analysis is carried out on the scripts dataset, to 
 
 ---
 
-## Visualise and Share Findings
+## Share Findings
 
-Finally, the inferences from the analysis can be found [here](analysis.ipynb)
+**Inferences**:
+    - There is a positive correlation between the viewership of an episode and its overall rating.
+    - Season 2 had the highest consistent viewership, while Season 6 had the lowest.
+    - Season 4 was the highest consistently rated season, while Season 1 was the lowest.
+    - The main 6 (Ross, Rachel, Chandler, Monica, Joey and Phoebe) spoke most of the dialogue (92.6%).
+    - "Oh my God" and "I don't know" are the most common trigrams.
+    - The top 10 tri and tetragrams across the main 6 is very similar.
+    - There is an overall weakly positive correlation (0.1848) between the "feels" of an episode and its rating.
+    - There is an overall weakly positive correlation (0.2651) between the "dramaticity" of an episode and the subsequent episode's viewership.
+
+Visualisations for the same can be found [here](analysis.ipynb)
 
 
 ---
@@ -80,3 +90,6 @@ Finally, the inferences from the analysis can be found [here](analysis.ipynb)
 ## Conclusion
 
 The answers for the initial questions are:
+
+1. Yes, there seems to be an overall positive correlation between the "feels" of an episode and its rating.
+2. Yes, there seems to be an overall positive correlation between the "dramaticity" of an episode and the subsequent episode's viewership.
