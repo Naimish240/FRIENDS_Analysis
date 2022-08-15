@@ -1,6 +1,7 @@
 # Google Data Analytics Certification Capstone Project
 
-This project was done as the capstone project for the course.
+This project was done as the capstone project for the [course](https://www.coursera.org/professional-certificates/google-data-analytics). [My Certificate](https://www.credly.com/badges/66be4ae1-f89a-4383-b45f-3e5aa9fe732b).
+
 
 As was discussed through the course, there are 5 main steps in the Data Analysis Process. They are:
 
